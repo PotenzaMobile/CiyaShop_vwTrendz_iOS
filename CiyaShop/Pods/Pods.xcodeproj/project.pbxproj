@@ -700,7 +700,7 @@
 		81A18089AB8026183CB27BD0F4CFDBF3 /* CountryPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 414E8588A0B455C015CB8925BB652F60 /* CountryPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		822CF845D457570673AB2D107BE70F7D /* FIRPhoneMultiFactorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A20D909C7395E136D1913F046E879DE /* FIRPhoneMultiFactorGenerator.m */; };
 		825809C419A60CBCDC58984BEC03584A /* FBSDKAppEventsDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFB333EA7F9C7ECB14F35BCEFD5E18C /* FBSDKAppEventsDeviceInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		827542C01CF865F134E74BEFDA513C96 /* CountryPickerView-CountryPickerView_CountryPickerView in Resources */ = {isa = PBXBuildFile; fileRef = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */; };
+		827542C01CF865F134E74BEFDA513C96 /* CountryPickerView_CountryPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView_CountryPickerView.bundle */; };
 		828A3234672666352770AD74A6613EF1 /* FBLPromise+Delay.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = B5618BB6CC8712D84D9E18DB3A9CEF8B /* FBLPromise+Delay.h */; };
 		82BFA04B774AB1E07C1486DE7EB0FD0F /* FIRPhoneMultiFactorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 38303ED928B9B3A569E3A2BE5F6BF5AB /* FIRPhoneMultiFactorInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82C01C0035AD893A30674942999A0708 /* FIRAuthProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FB2918EFE1DFB2A0C08E332E9D65AD /* FIRAuthProvider.m */; };
@@ -2741,7 +2741,7 @@
 		90A7A7671FF1D90CB3471C8307A57537 /* FBSDKAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKAppLinkNavigation.m; path = FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.m; sourceTree = "<group>"; };
 		918012B69DF2939A097D891CDF2ED94E /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/Core/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		91B04586BFE537FDB4D909D7DBC85998 /* FBSDKGraphErrorRecoveryProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKGraphErrorRecoveryProcessor.h; path = FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.h; sourceTree = "<group>"; };
-		920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CountryPickerView-CountryPickerView_CountryPickerView"; path = CountryPickerView_CountryPickerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView_CountryPickerView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryPickerView_CountryPickerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		926DFEE0019EA6241A612DB0165893B7 /* FBSDKDeviceRequestsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDeviceRequestsHelper.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKDeviceRequestsHelper.h; sourceTree = "<group>"; };
 		92AEF38D6257497EF5B714697975A95C /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
 		92B82A02820144793E669679FD750FE1 /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
@@ -4841,7 +4841,7 @@
 				3FD1B4C1246D643E9476438C28048FA8 /* AppAuth */,
 				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */,
 				D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */,
-				920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */,
+				920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView_CountryPickerView.bundle */,
 				EC8F4D0BE3B0C192EBA4A93F8887D89F /* FBSDKCoreKit */,
 				5DE0FEFC3995E740EC1AE2611D0AEFB0 /* FBSDKLoginKit */,
 				43B1E4CD7B30B9FD278100133C2AC788 /* FirebaseAuth */,
@@ -6591,7 +6591,7 @@
 			);
 			name = "CountryPickerView-CountryPickerView_CountryPickerView";
 			productName = CountryPickerView_CountryPickerView;
-			productReference = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */;
+			productReference = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView_CountryPickerView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */ = {
@@ -7090,7 +7090,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				827542C01CF865F134E74BEFDA513C96 /* CountryPickerView-CountryPickerView_CountryPickerView in Resources */,
+				827542C01CF865F134E74BEFDA513C96 /* CountryPickerView_CountryPickerView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8993,12 +8993,17 @@
 			baseConfigurationReference = 9C8EAEE86C1A493014CCA7C18B8FEE88 /* CountryPickerView.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KPPHDRLS38;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = KPPHDRLS38;
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				IBSC_MODULE = CountryPickerView;
 				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -9248,12 +9253,17 @@
 			baseConfigurationReference = 75E56DB68CB871A8EE8B4CA8E49BC567 /* CountryPickerView.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KPPHDRLS38;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = KPPHDRLS38;
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				IBSC_MODULE = CountryPickerView;
 				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

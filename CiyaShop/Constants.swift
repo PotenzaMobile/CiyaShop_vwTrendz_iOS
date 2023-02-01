@@ -21,7 +21,7 @@ let screenHeight =  UIScreen.main.bounds.height
 
 let isIPad = UIDevice.current.userInterfaceIdiom == .pad ? true :  false
 let isStatusBarDark = false
-let APP_NAME = "YOUR_APP_NAME"
+let APP_NAME = "VW Trendz"
 
 var strDeviceToken = ""
 
