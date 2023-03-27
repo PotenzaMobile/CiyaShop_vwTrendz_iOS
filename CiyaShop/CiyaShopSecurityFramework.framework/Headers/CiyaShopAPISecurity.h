@@ -88,5 +88,6 @@ typedef void (^DictionaryResponse) (BOOL success, NSString *message, id dictiona
 #pragma mark - Other API calls That can be used for custom calls
 
 + (void)postAPICall:(NSString*)url dictParams:(NSDictionary*)dictParams completionBlock:(DictionaryResponse) completionBlock;
-
++ (void)postAPICall2:(NSString*)url dictParams:(NSDictionary*)dictParams completionBlock:(DictionaryResponse) completionBlock;
++ (void)getAPICall:(NSString*)url dictParams:(NSDictionary*)dictParams completionBlock:(DictionaryResponse) completionBlock;
 @end

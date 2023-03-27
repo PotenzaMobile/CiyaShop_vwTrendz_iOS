@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>VW Trendz</string>
+	<string>VW Trendz Qatar</string>
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
@@ -19,50 +19,34 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb916206232752757</string>
+			</array>
+		</dict>
+		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.450931353593-1ambvhjqiqfa6lsr7r41lq38kpt55hsr</string>
 			</array>
 		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb382562920031078</string>
-			</array>
-		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>YOUR_GOOGLE_KEY</string>
-			</array>
-		</dict>
 	</array>
-	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string>382562920031078</string>
+	<string>916206232752757</string>
+	<key>FacebookClientToken</key>
+	<string>83eb2bd5eecbc10501973cc10685634f</string>
+	<key>FacebookDisplayName</key>
+	<string>VW Trendz Qatar</string>
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<false/>
-	<key>FacebookDisplayName</key>
-	<string>VW Trendz</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
-		<string>fb-messenger-api</string>
+		<string>fb-messenger-share-api</string>
 		<string>fbauth2</string>
-		<string>fbshareextension</string>
-		<string>whatsapp</string>
 	</array>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -74,10 +58,10 @@
 	<string>Allow location permission to get notified with best deal around your location. Please Click “ok” to allow access.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Allow location permission to get notified with best deal around your location. Please Click “ok” to allow access.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow location permission to get notified with best deal around your location. Please Click “ok” to allow access.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Set profile picture using Gallery. Please Click “ok” to allow access.</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>Allow app to track your activity</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Ubuntu-Medium.ttf</string>
@@ -119,6 +103,6 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 	<key>CFBundleDisplayName</key>
-	<string>VW Trendz</string>
+	<string>VW Trendz Qatar</string>
 </dict>
 </plist>

@@ -49,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate,UNUserNo
         }
         //onesignal
         
-        OneSignal.initWithLaunchOptions(launchOptions, appId: "your_one_signal_key", handleNotificationAction: nil, settings: [kOSSettingsKeyAutoPrompt : false])
+        OneSignal.initWithLaunchOptions(launchOptions, appId: "8758ee8d-7ad0-4b43-9d78-f8e2810704b5", handleNotificationAction: nil, settings: [kOSSettingsKeyAutoPrompt : false])
         OneSignal.inFocusDisplayType = .notification
         OneSignal.promptForPushNotifications { (accepted) in}
         
