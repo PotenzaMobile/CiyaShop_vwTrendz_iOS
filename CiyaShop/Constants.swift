@@ -184,7 +184,7 @@ let DistanceForLocationUpdate = 500 //minimum distance in meters
 
 // MARK:- Default Setting options
 
-let MOBILE_COUNTRY_CODE : String = "+91" //REPLACE WITH YOUR COUNTRY CODE
+let MOBILE_COUNTRY_CODE : String = "+974" //REPLACE WITH YOUR COUNTRY CODE
 
 let IS_FROM_STATIC_DATA : Bool = false
 

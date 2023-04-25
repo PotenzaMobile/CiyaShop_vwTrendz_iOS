@@ -21,7 +21,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb916206232752757</string>
+				<string>fb457601358659097</string>
 			</array>
 		</dict>
 		<dict>
@@ -32,9 +32,9 @@
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
-	<string>916206232752757</string>
+	<string>457601358659097</string>
 	<key>FacebookClientToken</key>
-	<string>83eb2bd5eecbc10501973cc10685634f</string>
+	<string>700f78cd2c64f54116b2a2035bae0943</string>
 	<key>FacebookDisplayName</key>
 	<string>VW Trendz Qatar</string>
 	<key>FacebookAutoLogAppEventsEnabled</key>

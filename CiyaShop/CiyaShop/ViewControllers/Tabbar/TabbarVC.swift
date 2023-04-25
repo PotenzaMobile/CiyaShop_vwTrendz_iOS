@@ -19,7 +19,7 @@ class TabbarVC: BaseViewController,UITabBarControllerDelegate {
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        requestPermission()
+       // requestPermission()
         NotificationCenter.default.addObserver(self, selector: #selector(self.refreshHomeData), name: NSNotification.Name(rawValue: REFRESH_HOME_DATA), object: nil)
         
         tabController?.delegate = self
